@@ -24,3 +24,28 @@ java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",133477
 java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1334770183277
 java.vm.specification.version,sysinfo,,,"1.0",1334770183277
 java.vm.vendor,sysinfo,,,"Apple Inc.",1334770183277
+java.vm.version,sysinfo,,,"20.4-b02-402",1334770183277
+started,bundle,org.eclipse.m2e.usagedata,1.0.100.20110804-1717,"org.eclipse.m2e.usagedata",1334770183296
+started,bundle,org.eclipse.wb.discovery.ui,1.1.0.r37x201109091028,"org.eclipse.wb.discovery.ui",1334770184083
+started,bundle,org.eclipse.compare.core,3.5.200.I20110208-0800,"org.eclipse.compare.core",1334770185085
+started,bundle,org.eclipse.compare,3.5.201.R37x_v20110817-0800,"org.eclipse.compare",1334770185100
+started,bundle,org.eclipse.jdt.apt.core,3.3.500.v20110420-1015,"org.eclipse.jdt.apt.core",1334770185136
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.400.v20110305-1450,"org.eclipse.jdt.apt.pluggable.core",1334770185144
+opened,view,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.views.ProblemView",1334770186112
+started,bundle,org.eclipse.wb.core.lib,1.1.0.r37x201109091012,"org.eclipse.wb.core.lib",1334770186315
+started,bundle,org.eclipse.wb.core,1.1.0.r37x201109091012,"org.eclipse.wb.core",1334770186369
+started,bundle,org.eclipse.wst.xml.core,1.1.601.v201108302147,"org.eclipse.wst.xml.core",1334770186481
+started,bundle,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui",1334770186965
+started,bundle,org.eclipse.jdt.junit.core,3.7.0.v20110518-0800,"org.eclipse.jdt.junit.core",1334770187956
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1334770190542
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1334770201007
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.properties",1334770201102
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1334770214325
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1334771539865
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1334771596879
+started,bundle,org.eclipse.jdt.debug,3.7.1.v20110802_r371,"org.eclipse.jdt.debug",1334772347750
+started,bundle,org.eclipse.jdt.debug.ui,3.6.1.v20110803_r371,"org.eclipse.jdt.debug.ui",1334772347901
+started,bundle,org.eclipse.jdt.junit,3.7.0.v20110505-0800,"org.eclipse.jdt.junit",1334772347952
+started,bundle,org.eclipse.ant.ui,3.5.100.v20110510,"org.eclipse.ant.ui",1334772347975
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1334772348945
+executed,command,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.edit.text.java.rename.element",1334772348978
