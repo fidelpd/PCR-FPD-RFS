@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TrivialActivity!</string>
+    <string name="app_name">Trivial</string>
+    <string name="pregunta">¿Sistema Operativo de Google?</string>
+    <string-array name="opciones">
+        <item ></item>
+        <item >Apple ios</item>
+        <item >Android</item>
+        <item >Windows Phone</item>
+        <item >RIM</item>
+    </string-array>
+	<string name="ofdash">Launch Dashboard</string>
+	<string name="spinner_layout_type_prompt">Layout Type:</string>
+    <string-array name="gamefeed_layout_types">
+	    <item>FrameLayout</item>
+	    <item>RelativeLayout</item>
+	    <item>LinearLayout</item>
+    </string-array>
+</resources>

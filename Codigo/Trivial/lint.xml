@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HardcodedText">
+        <ignore path="res\layout\game_feed_settings.xml" />
+    </issue>
+    <issue id="PxUsage">
+        <ignore path="res\layout\game_feed_settings.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res\layout\game_feed_settings.xml" />
+    </issue>
+</lint>

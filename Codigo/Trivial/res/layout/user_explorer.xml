@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(username)" android:bufferType="editable"></TextView>
+
+<TextView
+    android:id="@+id/textView05"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="(userid)" />
+
+<TextView
+    android:id="@+id/textView06"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Localización del usuario" />
+
+<ImageView
+    android:id="@+id/ImageView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+</LinearLayout>
