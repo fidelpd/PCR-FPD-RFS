@@ -5,6 +5,7 @@
     <string name="app_name">Win Your 10!</string>
     <string name="ofdash">Launch Dashboard</string>
 	<string name="spinner_layout_type_prompt">Layout Type:</string>
+	<string name="of_loading">Loading...</string>
     
 
 </resources>
