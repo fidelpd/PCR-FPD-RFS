@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+C:\Documents and Settings\rfs\Mis documentos\Documentos\RepoGITPCR\.metadata\.plugins\org.eclipse.jdt.core
+2572143626.index
+997784153.index
+8788256.index
