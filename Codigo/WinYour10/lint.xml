@@ -6,7 +6,9 @@
     <issue id="PxUsage">
         <ignore path="res\layout\game_feed_settings.xml" />
     </issue>
+    <issue id="TypographyEllipsis" severity="ignore" />
     <issue id="UselessParent">
         <ignore path="res\layout\game_feed_settings.xml" />
     </issue>
+    <issue id="UsesMinSdkAttributes" severity="ignore" />
 </lint>
