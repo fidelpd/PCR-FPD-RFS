@@ -51,12 +51,12 @@
 			    android:gravity="center"
 			    android:paddingRight="20px"
 		   	>
-
+
 				<Button
-				    android:onClick="ClickAcceso"
-				    android:layout_width="wrap_content"
-				    android:layout_height="wrap_content"
-				    android:background="@drawable/nuevo" />
+				    android:layout_width="98dp"
+				    android:layout_height="98dp"
+				    android:background="@drawable/key"
+				    android:onClick="ClickAcceso" />
 			    
 			    <TextView  
 				  	android:layout_width="fill_parent" 
@@ -80,9 +80,9 @@
 			   	
 			    <Button
 			        android:onClick="ClickEstado"
-			        android:layout_width="wrap_content"
-			        android:layout_height="wrap_content"
-			        android:background="@drawable/calendar" />
+			        android:layout_width="98dp"
+			        android:layout_height="98dp"
+			        android:background="@drawable/estado" />
 			    
 			    <TextView  
 				  	android:layout_width="fill_parent" 
@@ -115,11 +115,11 @@
 			    android:gravity="center"
 			    android:paddingRight="20px"
 		   	>
-
+
 			   	<Button
-			   	    android:layout_width="wrap_content"
-			   	    android:layout_height="wrap_content"
-			   	    android:background="@drawable/users"
+			   	    android:layout_width="98dp"
+			   	    android:layout_height="98dp"
+			   	    android:background="@drawable/configuracion"
 			   	    android:onClick="ClickAjustes"
 			   	    android:padding="20px" />
 			    
@@ -132,42 +132,31 @@
 				  	android:text="Ajustes"
 			  	/>
 		    </LinearLayout>
-		    
-		    <LinearLayout 
-			    xmlns:android="http://schemas.android.com/apk/res/android"
-			    android:orientation="vertical"
-			    android:layout_width="fill_parent"
-			    android:layout_height="fill_parent"
-			    android:layout_weight="1"
-			    android:gravity="center"
-			    android:paddingLeft="20px"
-		   	>
-		   	
-			   	<Button
-			   	    android:onClick="ClickAyuda"
-			   	    android:layout_width="wrap_content"
-			   	    android:layout_height="wrap_content"
-			   	    android:background="@drawable/save" />
-			   				    
-			    <TextView  
-				  	android:layout_width="fill_parent" 
-				  	android:layout_height="wrap_content" 
-				  	android:gravity="center"
-				  	android:textStyle="bold"
-				  	android:textColor="#000000"
-				  	android:text="Ayuda"
-			  	/>
-		    </LinearLayout>
-		    
- 		</TableRow>
-	
-	</TableLayout>
-    
-    
-    
-    
+		    
+		    <LinearLayout
+		        xmlns:android="http://schemas.android.com/apk/res/android"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:orientation="vertical"
+		        android:paddingLeft="20px" >
+
+		        <Button
+		            android:layout_width="98dp"
+		            android:layout_height="98dp"
+		            android:background="@drawable/help"
+		            android:onClick="ClickAyuda"/>
+
+				<TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:gravity="center"
+				    android:text="Ayuda"
+				    android:textColor="#000000"
+				    android:textStyle="bold" />
+			</LinearLayout>
+	    </TableRow>
+    </TableLayout>
+
 </LinearLayout>
-
-
-
-

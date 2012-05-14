@@ -54,12 +54,12 @@
 			    android:gravity="center"
 			    android:paddingRight="20px"
 		   	>
-
+
 				<Button
-				    android:onClick="ClickConectar"
-				    android:layout_width="wrap_content"
-				    android:layout_height="wrap_content"
-				    android:background="@drawable/nuevo" />
+				    android:layout_width="98dp"
+				    android:layout_height="98dp"
+				    android:background="@drawable/conectar"
+				    android:onClick="ClickConectar" />
 			    
 			    <TextView  
 				  	android:layout_width="fill_parent" 
@@ -80,13 +80,12 @@
 			    android:gravity="center"
 			    android:paddingLeft="20px"
 		   	>
-			   	
-
+			   	
 			    <Button
-			        android:onClick="ClickDesconectar"
-			        android:layout_width="wrap_content"
-			        android:layout_height="wrap_content"
-			        android:background="@drawable/calendar" />
+			        android:layout_width="98dp"
+			        android:layout_height="98dp"
+			        android:background="@drawable/desconectar"
+			        android:onClick="ClickDesconectar" />
 			    
 			    <TextView  
 				  	android:layout_width="fill_parent" 
@@ -122,9 +121,9 @@
 
 			   	<Button
 			   	    android:onClick="ClickOpciones"
-			   	    android:layout_width="wrap_content"
-			   	    android:layout_height="wrap_content"
-			   	    android:background="@drawable/users"
+			   	    android:layout_width="98dp"
+			   	    android:layout_height="98dp"
+			   	    android:background="@drawable/options"
 			   	    android:padding="20px" />
 			    
 			    <TextView  
