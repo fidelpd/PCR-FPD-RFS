@@ -25,6 +25,10 @@
         </activity>
         <activity android:name=".WinYour10Activity" android:label="Menu principal" />
         <activity android:name=".AboutUs" android:label="Sobre nosotros" />
+        <activity android:name=".Ajustes" android:label="Ajustes" />
+        <activity android:name=".Ayuda" android:label="Ayuda" />
+        <activity android:name=".Conectar" android:label="Conectar" />
+        <activity android:name=".UserExplorer" android:label="Datos Usuario" />
         
         
         <activity android:name="com.openfeint.internal.ui.IntroFlow"

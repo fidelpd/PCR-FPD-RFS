@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/restwall"    
+    >
+    
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+    
+	    <TextView  
+			android:id="@+id/txBienvenida"
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content" 
+	    	android:gravity="center"
+	    	android:text="Win Your 10!"
+	    	android:textStyle="bold"
+	    	android:textSize="20sp"
+	    	android:textColor="#000000"
+	    />
+	    
+	    
+    
+    </LinearLayout>
+    
+    <TableLayout 
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+	>
+		
+		<TableRow
+			android:layout_weight="1"
+			android:gravity="center"
+			android:paddingLeft="20px"
+			android:paddingRight="20px"
+			android:paddingBottom = "10px"
+		>
+			<LinearLayout 
+			    xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:gravity="center"
+			    android:paddingRight="20px"
+		   	>
+
+				<Button
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:background="@drawable/nuevo" />
+			    
+			    <TextView  
+				  	android:layout_width="fill_parent" 
+				  	android:layout_height="wrap_content" 
+				  	android:gravity="center"
+				  	android:textStyle="bold"
+				  	android:textColor="#000000"
+				  	android:text="Acceso al curso"
+			  	/>
+		    </LinearLayout>
+		    
+		    <LinearLayout 
+			    xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:gravity="center"
+			    android:paddingLeft="20px"
+		   	>
+			   	
+			    <Button
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:background="@drawable/calendar" />
+			    
+			    <TextView  
+				  	android:layout_width="fill_parent" 
+				  	android:layout_height="wrap_content" 
+				  	android:gravity="center"
+				  	android:textStyle="bold"
+				  	android:textColor="#000000"
+				  	android:text="Estado del curso"
+			  	/>
+		    </LinearLayout>
+		    
+		    
+ 		</TableRow>
+ 		
+ 		<TableRow
+			android:layout_weight="1"
+			android:gravity="center"
+			android:paddingLeft="20px"
+			android:paddingRight="20px"
+			android:paddingTop = "20px"
+			android:paddingBottom = "10px"
+		>
+		
+			<LinearLayout 
+			    xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:gravity="center"
+			    android:paddingRight="20px"
+		   	>
+
+			   	<Button
+			   	    android:layout_width="wrap_content"
+			   	    android:layout_height="wrap_content"
+			   	    android:background="@drawable/users"
+			   	    android:onClick="ClickAjustes"
+			   	    android:padding="20px" />
+			    
+			    <TextView  
+				  	android:layout_width="fill_parent" 
+				  	android:layout_height="wrap_content" 
+				  	android:gravity="center"
+				  	android:textStyle="bold"
+				  	android:textColor="#000000"
+				  	android:text="Ajustes"
+			  	/>
+		    </LinearLayout>
+		    
+		    <LinearLayout 
+			    xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:gravity="center"
+			    android:paddingLeft="20px"
+		   	>
+		   	
+			   	<Button
+			   	    android:layout_width="wrap_content"
+			   	    android:layout_height="wrap_content"
+			   	    android:background="@drawable/save" />
+			   				    
+			    <TextView  
+				  	android:layout_width="fill_parent" 
+				  	android:layout_height="wrap_content" 
+				  	android:gravity="center"
+				  	android:textStyle="bold"
+				  	android:textColor="#000000"
+				  	android:text="Ayuda"
+			  	/>
+		    </LinearLayout>
+		    
+ 		</TableRow>
+	
+	</TableLayout>
+    
+    
+    
+    
+</LinearLayout>
+
+
+
+

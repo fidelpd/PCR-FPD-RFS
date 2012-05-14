@@ -1,0 +1,30 @@
+package com.uc3m.wyt;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.Button;
+
+
+
+public class WinYour10Activity extends Activity {
+    /** Called when the activity is first created. */
+	
+	
+    public void onCreate(Bundle savedInstanceState) {
+    	super.onCreate(savedInstanceState);
+    	this.setContentView(R.layout.main);
+    	//final Button botonajustes = (Button) findViewById(R.id.ajustes);
+    	       
+    }
+    
+    private void ClickAjustes() {
+    	startActivity(new Intent(this, Ajustes.class ));
+    }
+    
+}
+    
+    
+    	
+
+

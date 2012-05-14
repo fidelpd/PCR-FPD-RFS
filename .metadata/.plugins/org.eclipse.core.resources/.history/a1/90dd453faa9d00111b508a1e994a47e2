@@ -1,0 +1,116 @@
+package com.uc3m.wyt;
+
+import java.io.UnsupportedEncodingException;
+
+import android.app.Activity;
+import android.app.ListActivity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ArrayAdapter;
+import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.openfeint.api.OpenFeint;
+import com.openfeint.api.OpenFeintDelegate;
+import com.openfeint.api.OpenFeintSettings;
+import com.openfeint.api.resource.Score;
+import com.openfeint.api.resource.User;
+import com.openfeint.api.ui.Dashboard;
+import com.openfeint.internal.OpenFeintInternal;
+
+@SuppressWarnings("unused")
+public class Conectar extends Activity {
+	
+	static final String gameName = "Win Your 10!";
+	static final String gameID = "494443";
+	static final String gameKey = "SbAlSEB8pUnzMuZgst5TTA";
+	static final String gameSecret = "9Q3ICWKhLnARkAGnyF7lVJ8BFB0JfkzTSgmitjXQVE";
+
+	/** Called when the activity is first created. */
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.conectar);
+		
+		final TextView userName = (TextView)findViewById(R.id.TextView01);
+        final ImageView profilePic = (ImageView)findViewById(R.id.ImageView01);
+        final User u = OpenFeint.getCurrentUser();
+        
+		
+		OpenFeintSettings settings = new OpenFeintSettings(gameName, gameKey, gameSecret, gameID);
+        OpenFeint.initialize(this, settings, new OpenFeintDelegate() { });
+        
+		
+
+		Score.setBlobDownloadedDelegate(new Score.BlobDownloadedDelegate() {
+			@Override public void blobDownloadedForScore(Score score) {
+				Dashboard.close();
+				String str = "decode error";
+				try {
+					str = new String(score.blob, "UTF-8");
+				} catch (UnsupportedEncodingException e) {
+				}
+				Toast.makeText(Conectar.this, str, Toast.LENGTH_SHORT).show();
+			}
+		});
+
+		
+		if (u != null) {
+        	u.load(new User.LoadCB() {
+				@Override public void onSuccess() {
+					userName.setText(u.name);
+					if (u.profilePictureUrl != null) {
+						u.downloadProfilePicture(new User.DownloadProfilePictureCB() {
+							@Override public void onSuccess(Bitmap iconBitmap) {
+								profilePic.setImageBitmap(iconBitmap);
+							}
+							@Override public void onFailure(String reason) {
+								Toast.makeText(UserExplorer.this, String.format("Couldn't download profile pic (%s)", reason), Toast.LENGTH_SHORT).show();
+							}
+						});
+					} else {
+						profilePic.setImageResource(R.drawable.no_image_available);
+						Toast.makeText(UserExplorer.this, String.format("No profile pic for this user."), Toast.LENGTH_SHORT).show();
+					}
+				}
+				@Override public void onFailure(String errorMessage) {
+					Toast.makeText(UserExplorer.this, errorMessage, Toast.LENGTH_SHORT).show();
+				}
+        	});
+        }
+        else
+        {
+        	userName.setText("No user currently logged in.");
+        }
+		
+	}
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        OpenFeint.onExit();
+    };
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        OpenFeint.onResume();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        OpenFeint.onPause();
+    }
+}
+
+
+
+
+
+
