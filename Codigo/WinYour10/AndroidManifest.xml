@@ -47,6 +47,21 @@
                   android:label="NativeBrowser"
                   android:configChanges="orientation|keyboardHidden"
                   android:theme="@style/OFNestedWindow"/>
+                          <activity android:name="AccesoCurso"></activity>
+        <activity android:name="EnConstruccion"></activity>
+        <activity android:name="Modelos"></activity>
+        <activity android:name="Probabilidad"></activity>
+        <activity android:name="ProbabilidadForo"></activity>
+        <activity android:name="ProbabilidadMultimedia"></activity>
+        <activity android:name="ProbabilidadTest"></activity>
+        <activity android:name="ProcesosEstocasticos"></activity>
+        <activity android:name="VariablesAleatorias"></activity>
+        <activity android:name="VectoresAleatorios"></activity>
+        <activity android:name="ProbabilidadMaterial"></activity>
+        <activity android:name="Estado"></activity>
+        <activity android:name="NotaActual"></activity>
+        <activity android:name="Clasificacion"></activity>
+        <activity android:name="Logros"></activity>
     </application>
     
     

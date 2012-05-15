@@ -18,13 +18,13 @@ public class WinYour10Activity extends Activity {
     	
     	       
     }
-    /*
+    
     public void ClickAcceso(View v) {
-    	startActivity(new Intent(this, Acceso.class ));
+    	startActivity(new Intent(WinYour10Activity.this, AccesoCurso.class ));
     }
     public void ClickEstado(View v) {
-    	startActivity(new Intent(this, Estado.class ));
-    }*/
+    	startActivity(new Intent(WinYour10Activity.this, Estado.class ));
+    }
     public void ClickAjustes(View v) {
     	startActivity(new Intent(this, Ajustes.class ));
     }
