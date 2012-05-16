@@ -3,6 +3,9 @@
     <issue id="HardcodedText">
         <ignore path="res\layout\game_feed_settings.xml" />
     </issue>
+    <issue id="InefficientWeight">
+        <ignore path="res\layout\acceso_curso.xml" />
+    </issue>
     <issue id="PxUsage">
         <ignore path="res\layout\game_feed_settings.xml" />
     </issue>

@@ -2,31 +2,37 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" 
     android:background="@drawable/restwall"
+    android:orientation="vertical"
+    android:padding="10dp"
     android:textColor="#777"
- 	android:padding="10dp"
- 	android:textSize="16sp" >
-
+    android:textSize="16sp" >
+
     <Button
         android:id="@+id/nota_actual"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="256dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bluenota"
         android:onClick="nota_actual"
-        android:text="@string/nota_actual" />
-
+        android:text="@string/nota_actual" android:layout_marginBottom="10dp" android:layout_marginTop="40dp"/>
+
     <Button
         android:id="@+id/clasificacion"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="256dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/greenpodio"
         android:onClick="clasificacion"
-        android:text="@string/clasificacion" />
-
+        android:text="@string/clasificacion" android:layout_marginBottom="10dp" android:layout_marginTop="40dp"/>
+
     <Button
         android:id="@+id/logros"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="256dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/yellowmedalla"
         android:onClick="logros"
-        android:text="@string/logros" />
+        android:text="@string/logros" android:layout_marginBottom="10dp" android:layout_marginTop="40dp"/>
 
 </LinearLayout>

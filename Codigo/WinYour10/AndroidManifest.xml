@@ -23,13 +23,28 @@
 				<category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
         <activity android:name=".WinYour10Activity" android:label="Menu principal" />
         <activity android:name=".AboutUs" android:label="Sobre nosotros" />
         <activity android:name=".Ajustes" android:label="Ajustes" />
         <activity android:name=".Ayuda" android:label="Ayuda" />
         <activity android:name=".Conectar" android:label="Conectar" />
         <activity android:name=".UserExplorer" android:label="Datos Usuario" />
-        
+        <activity android:name="AccesoCurso" android:label="Curso de estadistica" />
+        <activity android:name="EnConstruccion"></activity>
+        <activity android:name="Modelos"></activity>
+        <activity android:name="Probabilidad"></activity>
+        <activity android:name="ProbabilidadForo"></activity>
+        <activity android:name="ProbabilidadMultimedia"></activity>
+        <activity android:name="ProbabilidadTest"></activity>
+        <activity android:name="ProcesosEstocasticos"></activity>
+        <activity android:name="VariablesAleatorias"></activity>
+        <activity android:name="VectoresAleatorios"></activity>
+        <activity android:name="ProbabilidadMaterial"></activity>
+        <activity android:name="Estado" android:label="Estado del curso" />
+        <activity android:name="NotaActual"></activity>
+        <activity android:name="Clasificacion"></activity>
+        <activity android:name="Logros"></activity>
         
         <activity android:name="com.openfeint.internal.ui.IntroFlow"
                   android:label="IntroFlow"
@@ -47,21 +62,8 @@
                   android:label="NativeBrowser"
                   android:configChanges="orientation|keyboardHidden"
                   android:theme="@style/OFNestedWindow"/>
-                          <activity android:name="AccesoCurso"></activity>
-        <activity android:name="EnConstruccion"></activity>
-        <activity android:name="Modelos"></activity>
-        <activity android:name="Probabilidad"></activity>
-        <activity android:name="ProbabilidadForo"></activity>
-        <activity android:name="ProbabilidadMultimedia"></activity>
-        <activity android:name="ProbabilidadTest"></activity>
-        <activity android:name="ProcesosEstocasticos"></activity>
-        <activity android:name="VariablesAleatorias"></activity>
-        <activity android:name="VectoresAleatorios"></activity>
-        <activity android:name="ProbabilidadMaterial"></activity>
-        <activity android:name="Estado"></activity>
-        <activity android:name="NotaActual"></activity>
-        <activity android:name="Clasificacion"></activity>
-        <activity android:name="Logros"></activity>
+        
+        
     </application>
     
     
