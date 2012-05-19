@@ -66,7 +66,6 @@ public class Clasificacion extends ListActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-		setContentView(R.layout.clasificacion);
         
         downloadScores();
     }
@@ -95,7 +94,7 @@ public class Clasificacion extends ListActivity {
     
     public void downloadScores()
     {
-        setListAdapter(new ArrayAdapter<String>(this, R.layout.clasificacion, new String[] { "Loading..." }));
+        setListAdapter(new ArrayAdapter<String>(this, R.layout.clasificacion, R.id.txClasificacion, new String[] { "Loading..." }));
 
         final Leaderboard.GetScoresCB cb = new Leaderboard.GetScoresCB() {
 			@Override
@@ -114,7 +113,7 @@ public class Clasificacion extends ListActivity {
 					}
 				}
 				
-		        setListAdapter(new ArrayAdapter<Adapter>(Clasificacion.this, R.layout.clasificacion, adapted));
+		        setListAdapter(new ArrayAdapter<Adapter>(Clasificacion.this, R.layout.clasificacion, R.id.txClasificacion, adapted));
 		        
 		        ListView lv = getListView();
 		        lv.setOnItemClickListener(new OnItemClickListener() {
