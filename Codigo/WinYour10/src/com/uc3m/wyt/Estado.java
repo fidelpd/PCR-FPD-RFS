@@ -1,11 +1,18 @@
 package com.uc3m.wyt;
 
+import java.util.List;
+
+import com.openfeint.api.resource.Leaderboard;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 public class Estado extends Activity {
+	
+	public static List<Leaderboard> leaderboards = null;
+	
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {

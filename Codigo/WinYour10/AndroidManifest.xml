@@ -43,7 +43,7 @@
         <activity android:name="ProbabilidadMaterial"></activity>
         <activity android:name="Estado" android:label="Estado del curso" />
         <activity android:name="NotaActual"></activity>
-        <activity android:name="Clasificacion"></activity>
+        <activity android:name="Clasificacion" android:label="Clasificación"></activity>
         <activity android:name="Logros"></activity>
         
         <activity android:name="com.openfeint.internal.ui.IntroFlow"

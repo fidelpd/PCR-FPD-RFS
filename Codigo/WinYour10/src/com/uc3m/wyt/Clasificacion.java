@@ -1,16 +1,76 @@
 package com.uc3m.wyt;
 
+import java.io.UnsupportedEncodingException;
+import java.util.List;
+
 import android.app.Activity;
+import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.Toast;
+import android.widget.AdapterView.OnItemClickListener;
 
-public class Clasificacion extends Activity {
-	/** Called when the activity is first created. */
-	@Override
-	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.clasificacion);
+import com.openfeint.api.resource.Leaderboard;
+import com.openfeint.api.resource.Score;
+
+public class Clasificacion extends ListActivity {
+	
+	private abstract class Adapter {
+		abstract public String toString();
+		public void onClick() {};
+	};
+	
+	private class ScoreAdapter extends Adapter {
+		public Score mScore;
+		public ScoreAdapter(Score score) {
+			mScore = score;
+		}
+		public String toString() {
+			String scoreText;
+			if (mScore.displayText != null && mScore.displayText.length() > 0) {
+				scoreText = mScore.displayText;
+			} else {
+				scoreText = new Long(mScore.score).toString();
+			}
+			if (mScore.hasBlob()) scoreText += " *";
+			String userText = "unknown";
+			if (mScore.user != null && mScore.user.name != null) userText = mScore.user.name;
+			return userText + " - " + scoreText;
+		}
+		public void onClick() {
+			if (mScore.hasBlob()) {
+				mScore.downloadBlob(new Score.DownloadBlobCB() {
+					@Override public void onSuccess() {
+						String str = "decode error";
+						try {
+							str = new String(mScore.blob, "UTF-8");
+						} catch (UnsupportedEncodingException e) {
+						}
+						Toast.makeText(Clasificacion.this, str, Toast.LENGTH_SHORT).show();
+					}
+					@Override public void onFailure(String exceptionMessage) {
+						Toast.makeText(Clasificacion.this, exceptionMessage, Toast.LENGTH_SHORT).show();
+					}
+				});
+			} else {
+				Toast.makeText(Clasificacion.this, "(no blob)", Toast.LENGTH_SHORT).show();
+			}
+		}
 	}
-
+	    
+    /** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+		setContentView(R.layout.clasificacion);
+        
+        downloadScores();
+    }
+    
     @Override
     protected void onDestroy() {
         super.onDestroy();
@@ -24,5 +84,54 @@ public class Clasificacion extends Activity {
     @Override
     protected void onPause() {
         super.onPause();
+    }
+    
+    @Override public void onActivityResult(int requestCode, int resultCode, Intent data) {
+    	super.onActivityResult(requestCode, resultCode, data);
+    	if (resultCode != Activity.RESULT_CANCELED) {
+    		downloadScores();
+    	}
+    }
+    
+    public void downloadScores()
+    {
+        setListAdapter(new ArrayAdapter<String>(this, R.layout.clasificacion, new String[] { "Loading..." }));
+
+        final Leaderboard.GetScoresCB cb = new Leaderboard.GetScoresCB() {
+			@Override
+			public void onSuccess(final List<Score> scores) {
+				scoresDownloaded(scores);
+			}
+			
+			private void scoresDownloaded(final List<Score> scores) {
+
+				final Adapter adapted[] = new Adapter[(scores != null ? scores.size() : 0)];
+				int idx = 0;
+				
+				if (scores != null) {
+					for (Score s : scores) {
+						adapted[idx++] = new ScoreAdapter(s);
+					}
+				}
+				
+		        setListAdapter(new ArrayAdapter<Adapter>(Clasificacion.this, R.layout.clasificacion, adapted));
+		        
+		        ListView lv = getListView();
+		        lv.setOnItemClickListener(new OnItemClickListener() {
+			        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+			        	adapted[position].onClick();
+			        }
+			    });
+
+			}
+			
+			@Override public void onFailure(String exceptionMessage) {
+				Toast.makeText(Clasificacion.this, "Error (" + exceptionMessage + ").", Toast.LENGTH_SHORT).show();
+				scoresDownloaded(null);
+			}
+        };
+        
+		final Leaderboard leaderboard = new Leaderboard("1172917");
+		leaderboard.getScores(cb);
     }
 }
