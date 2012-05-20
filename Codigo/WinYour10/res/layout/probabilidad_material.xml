@@ -10,23 +10,30 @@
 
     <Button
         android:id="@+id/apuntes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/acceder_apuntes"
-        android:onClick="acceder_apuntes"  />
+        android:layout_width="256dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/apuntesbutton"
+        android:onClick="acceder_apuntes"
+        android:layout_marginBottom="10dp" android:layout_marginTop="20dp"/>
 
     <Button
         android:id="@+id/ejercicios_leton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/acceder_ejercicios_leton"
-        android:onClick="acceder_ejercicios_leton" />
+        android:layout_width="256dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/ejercicio1button"
+        android:onClick="acceder_ejercicios_leton"
+        android:layout_marginBottom="10dp" android:layout_marginTop="20dp"/>
+
 
     <Button
         android:id="@+id/ejercicios_durban"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/acceder_ejercicios_durban"
-        android:onClick="acceder_ejercicios_durban" />
+        android:layout_width="256dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/ejercicio2button"
+        android:onClick="acceder_ejercicios_durban"
+        android:layout_marginBottom="10dp" android:layout_marginTop="20dp"/>
 
 </LinearLayout>

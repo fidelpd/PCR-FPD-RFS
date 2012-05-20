@@ -30,21 +30,21 @@
         <activity android:name=".Ayuda" android:label="Ayuda" />
         <activity android:name=".Conectar" android:label="Conectar" />
         <activity android:name=".UserExplorer" android:label="Datos Usuario" />
-        <activity android:name="AccesoCurso" android:label="Curso de estadistica" />
-        <activity android:name="EnConstruccion"></activity>
-        <activity android:name="Modelos"></activity>
-        <activity android:name="Probabilidad"></activity>
-        <activity android:name="ProbabilidadForo"></activity>
-        <activity android:name="ProbabilidadMultimedia"></activity>
-        <activity android:name="ProbabilidadTest"></activity>
-        <activity android:name="ProcesosEstocasticos"></activity>
-        <activity android:name="VariablesAleatorias"></activity>
-        <activity android:name="VectoresAleatorios"></activity>
-        <activity android:name="ProbabilidadMaterial"></activity>
-        <activity android:name="Estado" android:label="Estado del curso" />
-        <activity android:name="NotaActual"></activity>
-        <activity android:name="Clasificacion" android:label="Clasificación"></activity>
-        <activity android:name="Logros"></activity>
+        <activity android:name=".AccesoCurso" android:label="Temario de estadística" />
+        <activity android:name=".EnConstruccion" android:label="Proximamente..." />
+        <activity android:name=".Modelos" android:label="Modelos" />
+        <activity android:name=".Probabilidad" android:label="Probabilidad" />
+        <activity android:name=".ProbabilidadForo" android:label="Foro" />
+        <activity android:name=".ProbabilidadMultimedia" android:label="Multimedia" />
+        <activity android:name=".ProbabilidadTest" android:label="Test" />
+        <activity android:name=".ProcesosEstocasticos" android:label="Estocasticos" />
+        <activity android:name=".VariablesAleatorias" android:label="Variables aleatorias" />
+        <activity android:name=".VectoresAleatorios" android:label="Vectores aleatorias" />
+        <activity android:name=".ProbabilidadMaterial" android:label="Material" />
+        <activity android:name=".Estado" android:label="Estado del curso" />
+        <activity android:name=".NotaActual" android:label="Nota actual" />
+        <activity android:name=".Clasificacion" android:label="Clasificación"></activity>
+        <activity android:name=".Logros" android:label="Logros" />
         
         <activity android:name="com.openfeint.internal.ui.IntroFlow"
                   android:label="IntroFlow"

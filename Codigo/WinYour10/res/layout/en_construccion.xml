@@ -7,6 +7,13 @@
     android:textColor="#777"
  	android:padding="10dp"
  	android:textSize="16sp">
-    
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/underconstruction"
+        android:layout_marginTop="50dp"/>
 
 </LinearLayout>

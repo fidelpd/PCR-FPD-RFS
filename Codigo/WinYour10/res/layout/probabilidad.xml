@@ -10,30 +10,42 @@
 
     <Button
         android:id="@+id/material"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/material" 
-        android:onClick="material"/>
+        android:layout_width="256dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/materialbutton"
+        android:onClick="material"
+        android:layout_marginBottom="5dp" android:layout_marginTop="5dp"/>
 
     <Button
         android:id="@+id/foro"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/foro" 
-        android:onClick="foro" />
+        android:layout_width="256dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/forobutton"
+        android:onClick="foro"
+        android:layout_marginBottom="5dp" android:layout_marginTop="5dp"/>
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/multimedia" 
-        android:onClick="multimedia"/>
+        android:layout_width="256dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/multimediabutton"
+        android:onClick="multimedia"
+        android:layout_marginBottom="5dp" android:layout_marginTop="5dp"/>
+		
+		
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/test" 
-        android:onClick="test" />
+        android:layout_width="256dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/testbutton"
+        android:onClick="test"
+        android:layout_marginBottom="5dp" android:layout_marginTop="5dp"/>
+		
+		
 
 </LinearLayout>
