@@ -3,15 +3,11 @@
 
     <string name="hello">Hello World, WinYour10Activity!</string>
     <string name="app_name">Win Your 10!</string>
+    <string name="toggle_Gamefeed">Esconder Gamefeed</string>
     <string name="ofdash">Launch Dashboard</string>
 	<string name="spinner_layout_type_prompt">Layout Type:</string>
 	<string name="of_loading">Loading...</string>
-    <string name="probabilidad">Probabilidad</string>
-	<string name="variables_aleatorias">Variables Aleatorias</string>
-	<string name="modelos">Modelos</string>
-	<string name="vectores_aleatorios">Vectores Aleatorios</string>
-	<string name="procesos_estocasticos">Procesos Estócasticos</string>
-	<string name="acceder_foro">Acceder al Foro</string>
+    <string name="acceder_foro">Acceder al Foro</string>
 	<string name="acceder_apuntes">Apuntes</string>
 	<string name="acceder_ejercicios_leton">Ejercicios Letón</string>
 	<string name="acceder_ejercicios_durban">Ejercicios Durbán</string>

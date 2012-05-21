@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lint>
+    <issue id="ContentDescription">
+        <ignore path="res\layout\en_construccion.xml" />
+    </issue>
     <issue id="HardcodedText">
         <ignore path="res\layout\game_feed_settings.xml" />
     </issue>

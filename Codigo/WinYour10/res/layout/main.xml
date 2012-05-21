@@ -3,30 +3,8 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/restwall"    
+    android:background="@drawable/restwall" 
     >
-    
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="fill_parent"
-        android:layout_height="52dp"
-        android:gravity="center"
-        android:orientation="vertical" >
-    
-	    <TextView  
-			android:id="@+id/txBienvenida"
-	    	android:layout_width="fill_parent" 
-	    	android:layout_height="wrap_content" 
-	    	android:gravity="center"
-	    	android:text="Win Your 10!"
-	    	android:textStyle="bold"
-	    	android:textSize="20sp"
-	    	android:textColor="#000000"
-	    />
-	    
-	    
-    
-    </LinearLayout>
     
     <TableLayout 
 	    xmlns:android="http://schemas.android.com/apk/res/android"
@@ -40,8 +18,7 @@
 			android:gravity="center"
 			android:paddingLeft="20px"
 			android:paddingRight="20px"
-			android:paddingBottom = "10px"
-		>
+			android:paddingBottom = "5px">
 			<LinearLayout 
 			    xmlns:android="http://schemas.android.com/apk/res/android"
 			    android:orientation="vertical"
@@ -63,7 +40,7 @@
 				  	android:layout_height="wrap_content" 
 				  	android:gravity="center"
 				  	android:textStyle="bold"
-				  	android:textColor="#000000"
+				  	android:textColor="#FFFFFF"
 				  	android:text="Acceso al curso"
 			  	/>
 		    </LinearLayout>
@@ -89,7 +66,7 @@
 				  	android:layout_height="wrap_content" 
 				  	android:gravity="center"
 				  	android:textStyle="bold"
-				  	android:textColor="#000000"
+				  	android:textColor="#FFFFFF"
 				  	android:text="Estado del curso"
 			  	/>
 		    </LinearLayout>
@@ -128,8 +105,8 @@
 				  	android:layout_height="wrap_content" 
 				  	android:gravity="center"
 				  	android:textStyle="bold"
-				  	android:textColor="#000000"
-				  	android:text="Ajustes"
+				  	android:textColor="#FFFFFF"
+				  	android:text="Opciones"
 			  	/>
 		    </LinearLayout>
 		    
@@ -153,8 +130,8 @@
 				    android:layout_height="wrap_content"
 				    android:gravity="center"
 				    android:text="Ayuda"
-				    android:textColor="#000000"
-				    android:textStyle="bold" />
+				    android:textColor="#FFFFFF"
+				  	android:textStyle="bold" />
 			</LinearLayout>
 	    </TableRow>
     </TableLayout>

@@ -13,9 +13,10 @@ public class WinYour10Activity extends Activity {
 	/** Called when the activity is first created. */
     @Override
 	public void onCreate(Bundle savedInstanceState) {
+    	
     	super.onCreate(savedInstanceState);
     	setContentView(R.layout.main);
-    	
+    		
     	       
     }
     
@@ -30,6 +31,12 @@ public class WinYour10Activity extends Activity {
     }
     public void ClickAyuda(View v) {
     	startActivity(new Intent(this, Ayuda.class ));
+    }
+    
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if(resultCode == 0) {
+            finish();
+        }
     }
     
 }
