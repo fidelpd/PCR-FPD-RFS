@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/restwall"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:textColor="#777"
+    android:textSize="16sp" >
+
+    <Button
+        android:id="@+id/nota_actual"
+        android:layout_width="256dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/conectar"
+        android:onClick="nota_actual"
+        android:layout_marginBottom="10dp" android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/clasificacion"
+        android:layout_width="256dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/desconectar"
+        android:onClick="clasificacion"
+        android:layout_marginBottom="10dp" android:layout_marginTop="40dp"/>
+
+
+    <Button
+        android:id="@+id/logros"
+        android:layout_width="256dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/salir"
+        android:onClick="logros"
+        android:layout_marginBottom="10dp" android:layout_marginTop="40dp"/>
+
+</LinearLayout>
