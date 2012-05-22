@@ -12,7 +12,13 @@
 	<string name="acceder_ejercicios_leton">Ejercicios Letón</string>
 	<string name="acceder_ejercicios_durban">Ejercicios Durbán</string>
 	<string name="teorema_bayes">Teorema de Bayes</string>
-	<string name="funcion_densidad">Funcion de densidad</string>
+	<string name="funcion_densidad">Función densidad</string>
+	<string name="logroazul">Mejor compañero</string>
+	<string name="logrorojo">Más trabajador</string>
+	<string name="logroama">Más constante</string>
+	<string name="logrogris">Más sabio</string>
+	<string name="logroverde">Más creativo</string>
+	
 	
 	
     
