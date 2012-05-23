@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="19" version="2.0">
+<workbench progressCount="29" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="0" y="28">
 <fastViewData fastViewLocation="1024"/>
@@ -37,16 +37,41 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="ayuda.xml" partName="ayuda.xml" path="C:/Documents and Settings/rfs/Mis documentos/Documentos/RepoPCR/Codigo/WinYour10/res/layout/ayuda.xml" title="ayuda.xml" tooltip="WinYour10/res/layout/ayuda.xml" workbook="DefaultEditorWorkbook">
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="ayuda.xml" partName="ayuda.xml" path="C:/Documents and Settings/rfs/Mis documentos/Documentos/RepoPCR/Codigo/WinYour10/res/layout/ayuda.xml" title="ayuda.xml" tooltip="WinYour10/res/layout/ayuda.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WinYour10/res/layout/ayuda.xml"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ayuda.java" partName="Ayuda.java" path="C:/Documents and Settings/rfs/Mis documentos/Documentos/RepoPCR/Codigo/WinYour10/src/com/uc3m/wyt/Ayuda.java" title="Ayuda.java" tooltip="WinYour10/src/com/uc3m/wyt/Ayuda.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WinYour10/src/com/uc3m/wyt/Ayuda.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="126" selectionOffset="518" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="estado.xml" partName="estado.xml" path="C:/Documents and Settings/rfs/Mis documentos/Documentos/RepoPCR/Codigo/WinYour10/res/layout/estado.xml" title="estado.xml" tooltip="WinYour10/res/layout/estado.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WinYour10/res/layout/estado.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="C:/Documents and Settings/rfs/Mis documentos/Documentos/RepoPCR/Codigo/WinYour10/res/values/strings.xml" title="strings.xml" tooltip="WinYour10/res/values/strings.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WinYour10/res/values/strings.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="WinYour10 Manifest" path="C:/Documents and Settings/rfs/Mis documentos/Documentos/RepoPCR/Codigo/WinYour10/AndroidManifest.xml" title="WinYour10 Manifest" tooltip="WinYour10/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WinYour10/AndroidManifest.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="actualizar_nota.xml" partName="actualizar_nota.xml" path="C:/Documents and Settings/rfs/Mis documentos/Documentos/RepoPCR/Codigo/WinYour10/res/layout/actualizar_nota.xml" title="actualizar_nota.xml" tooltip="WinYour10/res/layout/actualizar_nota.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WinYour10/res/layout/actualizar_nota.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Estado.java" partName="Estado.java" path="C:/Documents and Settings/rfs/Mis documentos/Documentos/RepoPCR/Codigo/WinYour10/src/com/uc3m/wyt/Estado.java" title="Estado.java" tooltip="WinYour10/src/com/uc3m/wyt/Estado.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WinYour10/src/com/uc3m/wyt/Estado.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="probabilidad.xml" partName="probabilidad.xml" path="C:/Documents and Settings/rfs/Mis documentos/Documentos/RepoPCR/Codigo/WinYour10/res/layout/probabilidad.xml" title="probabilidad.xml" tooltip="WinYour10/res/layout/probabilidad.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WinYour10/res/layout/probabilidad.xml"/>
 </editor>
 </editors>
 <views>
@@ -107,7 +132,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (44 items)"/>
+<category IMemento.internal.id="Warnings (46 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="75" org.eclipse.ui.ide.markerType="75" org.eclipse.ui.ide.pathField="100" org.eclipse.ui.ide.resourceField="171" org.eclipse.ui.ide.severityAndDescriptionField="353"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -509,44 +534,13 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/WinYour10/res/layout/main.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/WinYour10/res/layout/ayuda.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WinYour10/src/com/uc3m/wyt/Ayuda.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/WinYour10/res/layout/estado.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/WinYour10/res/values/strings.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/WinYour10/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/WinYour10/res/layout/actualizar_nota.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WinYour10/src/com/uc3m/wyt/Estado.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/WinYour10/res/layout/probabilidad.xml"/>
 </editors>
-<item historyLabel="Ayuda.java" index="0">
-<position info="not_deleted" x="311" y="0"/>
-</item>
-<item historyLabel="Logros.java" index="1">
-<position info="not_deleted" x="3279" y="0"/>
-</item>
-<item historyLabel="Ayuda.java" index="0">
-<position info="not_deleted" x="311" y="0"/>
-</item>
-<item historyLabel="Probabilidad.java" index="4">
-<position info="not_deleted" x="2893" y="0"/>
-</item>
-<item historyLabel="Ayuda.java" index="0">
-<position info="not_deleted" x="683" y="0"/>
-</item>
-<item historyLabel="Probabilidad.java" index="4">
-<position info="not_deleted" x="2778" y="0"/>
-</item>
-<item historyLabel="AboutUs.java" index="2">
-<position info="not_deleted" x="313" y="84"/>
-</item>
-<item historyLabel="ayuda.xml" index="5"/>
-<item historyLabel="Ayuda.java" index="0">
-<position info="not_deleted" x="683" y="0"/>
-</item>
-<item historyLabel="AboutUs.java" index="2">
-<position info="not_deleted" x="313" y="84"/>
-</item>
-<item historyLabel="Ayuda.java" index="0">
-<position info="not_deleted" x="683" y="0"/>
-</item>
-<item historyLabel="AboutUs.java" index="2">
-<position info="not_deleted" x="313" y="84"/>
-</item>
-<item historyLabel="Ayuda.java" index="0">
-<position info="not_deleted" x="683" y="0"/>
-</item>
 <item historyLabel="AboutUs.java" index="2">
 <position info="not_deleted" x="313" y="84"/>
 </item>
@@ -627,7 +621,24 @@
 <item historyLabel="Ayuda.java" index="8">
 <position info="not_deleted" x="518" y="126"/>
 </item>
-<item active="true" historyLabel="ayuda.xml" index="7"/>
+<item historyLabel="ayuda.xml" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="estado.xml" index="9"/>
+<item historyLabel="strings.xml" index="10"/>
+<item historyLabel="WinYour10 Manifest" index="11"/>
+<item historyLabel="ayuda.xml" index="7"/>
+<item historyLabel="estado.xml" index="9"/>
+<item historyLabel="strings.xml" index="10"/>
+<item historyLabel="WinYour10 Manifest" index="11"/>
+<item historyLabel="actualizar_nota.xml" index="12"/>
+<item historyLabel="Estado.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="estado.xml" index="9"/>
+<item historyLabel="probabilidad.xml" index="14"/>
+<item historyLabel="actualizar_nota.xml" index="12"/>
+<item active="true" historyLabel="estado.xml" index="9"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -645,6 +656,24 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="probabilidad.xml" tooltip="WinYour10/res/layout/probabilidad.xml">
+<persistable path="/WinYour10/res/layout/probabilidad.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Estado.java" tooltip="WinYour10/src/com/uc3m/wyt/Estado.java">
+<persistable path="/WinYour10/src/com/uc3m/wyt/Estado.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="actualizar_nota.xml" tooltip="WinYour10/res/layout/actualizar_nota.xml">
+<persistable path="/WinYour10/res/layout/actualizar_nota.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="WinYour10/AndroidManifest.xml">
+<persistable path="/WinYour10/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="WinYour10/res/values/strings.xml">
+<persistable path="/WinYour10/res/values/strings.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="estado.xml" tooltip="WinYour10/res/layout/estado.xml">
+<persistable path="/WinYour10/res/layout/estado.xml"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ayuda.java" tooltip="WinYour10/src/com/uc3m/wyt/Ayuda.java">
 <persistable path="/WinYour10/src/com/uc3m/wyt/Ayuda.java"/>
 </file>
@@ -671,21 +700,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NotaActual.java" tooltip="WinYour10/src/com/uc3m/wyt/NotaActual.java">
 <persistable path="/WinYour10/src/com/uc3m/wyt/NotaActual.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Logros.java" tooltip="WinYour10/src/com/uc3m/wyt/Logros.java">
-<persistable path="/WinYour10/src/com/uc3m/wyt/Logros.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Estado.java" tooltip="WinYour10/src/com/uc3m/wyt/Estado.java">
-<persistable path="/WinYour10/src/com/uc3m/wyt/Estado.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Conectar.java" tooltip="WinYour10/src/com/uc3m/wyt/Conectar.java">
-<persistable path="/WinYour10/src/com/uc3m/wyt/Conectar.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Clasificacion.java" tooltip="WinYour10/src/com/uc3m/wyt/Clasificacion.java">
-<persistable path="/WinYour10/src/com/uc3m/wyt/Clasificacion.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CameraP.java" tooltip="WinYour10/src/com/uc3m/wyt/CameraP.java">
-<persistable path="/WinYour10/src/com/uc3m/wyt/CameraP.java"/>
 </file>
 </mruList>
 </workbench>

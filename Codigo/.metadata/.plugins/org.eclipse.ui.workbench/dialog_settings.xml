@@ -4,8 +4,9 @@
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
 		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
-			<item value="C:\Documents and Settings\rfs\Mis documentos\My Dropbox\Documents\PCR\Fidel"/>
 			<item value="C:\Documents and Settings\rfs\Mis documentos\Documentos\RepoPCR\Varios"/>
+			<item value="C:\Documents and Settings\rfs\Mis documentos\My Dropbox\Documents\PCR\Fidel"/>
+			<item value="C:\Documents and Settings\rfs\Mis documentos\My Dropbox\Documents\PCR\Fidel\src"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
@@ -30,8 +31,8 @@
 		<item value="280" key="DIALOG_WIDTH"/>
 		<item value="com.android.ide.eclipse.ddms.views.LogCatView" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
 		<item value="124" key="DIALOG_Y_ORIGIN"/>
-		<item value="504" key="DIALOG_X_ORIGIN"/>
 		<item value="421" key="DIALOG_HEIGHT"/>
+		<item value="504" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
 		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="com.android.ide.eclipse.ddms.views.category"/>

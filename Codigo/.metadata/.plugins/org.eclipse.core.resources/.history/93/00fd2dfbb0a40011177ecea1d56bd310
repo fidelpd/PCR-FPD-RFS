@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/restwall" 
+    >
+    
+    <TableLayout 
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+	>
+		
+		<TableRow
+			android:layout_weight="1"
+			android:gravity="center"
+			android:paddingLeft="20px"
+			android:paddingRight="20px"
+			android:paddingBottom = "5px">
+			<LinearLayout 
+			    xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:gravity="center"
+			    android:paddingRight="20px"
+		   	>
+
+
+
+				<Button
+				    android:id="@+id/logrorojo"
+				    android:layout_width="98dp"
+				    android:layout_height="98dp"
+				    android:background="@drawable/logrorojo" />
+			    
+			    <TextView  
+				  	android:layout_width="fill_parent" 
+				  	android:layout_height="wrap_content" 
+				  	android:gravity="center"
+				  	android:textStyle="bold"
+				  	android:textColor="#FFFFFF"
+				  	android:text="@string/logrorojo"
+			  	/>
+		    </LinearLayout>
+		    
+		    <LinearLayout 
+			    xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:gravity="center"
+			    android:paddingLeft="20px"
+		   	>
+			   	
+
+			    <Button
+			        android:id="@+id/logroazul"
+			        android:layout_width="98dp"
+			        android:layout_height="98dp"
+			        android:background="@drawable/logroazul" />
+			    
+			    <TextView  
+				  	android:layout_width="fill_parent" 
+				  	android:layout_height="wrap_content" 
+				  	android:gravity="center"
+				  	android:textStyle="bold"
+				  	android:textColor="#FFFFFF"
+				  	android:text="@string/logroazul"
+			  	/>
+		    </LinearLayout>
+		    
+		    
+ 		</TableRow>
+		<TableRow>
+			<LinearLayout 
+			    xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:gravity="center"
+			    android:paddingRight="20px"
+		   	>
+
+
+
+
+			   	<Button
+			   	    android:id="@+id/logrogris"
+			   	    android:layout_width="98dp"
+			   	    android:layout_height="98dp"
+			   	    android:background="@drawable/logrogris"
+			   	    android:padding="20px" />
+			    
+			    <TextView  
+				  	android:layout_width="fill_parent" 
+				  	android:layout_height="wrap_content" 
+				  	android:gravity="center"
+				  	android:textStyle="bold"
+				  	android:textColor="#FFFFFF"
+				  	android:text="@string/logrogris"
+			  	/>
+		    </LinearLayout>
+		
+		</TableRow>
+ 		
+ 		<TableRow
+			android:layout_weight="1"
+			android:gravity="center"
+			android:paddingLeft="20px"
+			android:paddingRight="20px"
+			android:paddingTop = "20px"
+			android:paddingBottom = "10px"
+		>
+		
+			<LinearLayout 
+			    xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:gravity="center"
+			    android:paddingRight="20px"
+		   	>
+
+
+
+
+			   	<Button
+			   	    android:id="@+id/logroverde"
+			   	    android:layout_width="98dp"
+			   	    android:layout_height="98dp"
+			   	    android:background="@drawable/logroverde"
+			   	    android:padding="20px" />
+			    
+			    <TextView  
+				  	android:layout_width="fill_parent" 
+				  	android:layout_height="wrap_content" 
+				  	android:gravity="center"
+				  	android:textStyle="bold"
+				  	android:textColor="#FFFFFF"
+				  	android:text="@string/logroverde"
+			  	/>
+		    </LinearLayout>
+		    
+
+		    <LinearLayout
+		        xmlns:android="http://schemas.android.com/apk/res/android"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1"
+		        android:gravity="center"
+		        android:orientation="vertical"
+		        android:paddingLeft="20px" >
+
+		        <Button
+		            android:id="@+id/logroama"
+		            android:layout_width="98dp"
+		            android:layout_height="98dp"
+		            android:background="@drawable/logroama"/>
+
+
+				<TextView
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:gravity="center"
+				    android:text="@string/logroama"
+				    android:textColor="#FFFFFF"
+				  	android:textStyle="bold" />
+			</LinearLayout>
+	    </TableRow>
+    </TableLayout>
+
+</LinearLayout>

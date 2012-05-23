@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/restwall"
+    android:textColor="#777"
+ 	android:padding="10dp"
+ 	android:textSize="16sp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mas_trabajador" />
+
+    <EditText
+        android:id="@+id/mas_trabajador"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="@string/cero"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mas_sabio" />
+
+    <EditText
+        android:id="@+id/mas_sabio"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:inputType="number" 
+        android:text="@string/cero"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mas_constante" />
+
+    <EditText
+        android:id="@+id/mas_constante"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:inputType="number" 
+        android:text="@string/cero"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/espiritu_creativo" />
+
+    <EditText
+        android:id="@+id/espiritu_creativo"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:inputType="number" 
+        android:text="@string/cero"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mejor_companyero" />
+
+    <EditText
+        android:id="@+id/mejor_compa"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:inputType="number" 
+        android:text="@string/cero"/>
+
+    <Button
+        android:id="@+id/enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/actualizar_nota"
+        android:background="@drawable/orangebutton" 
+        android:onClick="enviar"/>
+
+</LinearLayout>
