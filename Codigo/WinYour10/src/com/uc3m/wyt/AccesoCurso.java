@@ -1,10 +1,14 @@
 package com.uc3m.wyt;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
+import android.widget.Toast;
 
 
 public class AccesoCurso extends Activity {
@@ -36,11 +40,45 @@ public class AccesoCurso extends Activity {
     }
     
     public void variables_aleatorias(View v) {
-    	startActivity(new Intent(AccesoCurso.this, VariablesAleatorias.class ));
+    	AlertDialog.Builder alertbox = new AlertDialog.Builder(this);
+
+        // Set the message to display
+        alertbox.setMessage("Item no desbloqueado");
+
+        // Add a neutral button to the alert box and assign a click listener
+        alertbox.setNeutralButton("Volver", new DialogInterface.OnClickListener() {
+
+            // Click listener on the neutral button of alert box
+            public void onClick(DialogInterface arg0, int arg1) {
+
+                // The neutral button was clicked
+                Toast.makeText(getApplicationContext(), "Debes superar Probabilidad", Toast.LENGTH_LONG).show();
+            }
+        });
+
+         // show the alert box
+        alertbox.show();
     }
     
     public void vectores_aleatorios(View v) {
-    	startActivity(new Intent(AccesoCurso.this, VectoresAleatorios.class ));
+    	AlertDialog.Builder alertbox = new AlertDialog.Builder(this);
+
+        // Set the message to display
+        alertbox.setMessage("Item no desbloqueado");
+
+        // Add a neutral button to the alert box and assign a click listener
+        alertbox.setNeutralButton("Volver", new DialogInterface.OnClickListener() {
+
+            // Click listener on the neutral button of alert box
+            public void onClick(DialogInterface arg0, int arg1) {
+
+                // The neutral button was clicked
+                Toast.makeText(getApplicationContext(), "Debes superar Variables aleatorias", Toast.LENGTH_LONG).show();
+            }
+        });
+
+         // show the alert box
+        alertbox.show();
     }
     
     public void probabilidad(View v) {
@@ -48,6 +86,40 @@ public class AccesoCurso extends Activity {
     }
     
     public void modelos(View v) {
-    	startActivity(new Intent(AccesoCurso.this, Modelos.class ));
+    	AlertDialog.Builder alertbox = new AlertDialog.Builder(this);
+
+        // Set the message to display
+        alertbox.setMessage("Item no desbloqueado");
+
+        // Add a neutral button to the alert box and assign a click listener
+        alertbox.setNeutralButton("Volver", new DialogInterface.OnClickListener() {
+
+            // Click listener on the neutral button of alert box
+            public void onClick(DialogInterface arg0, int arg1) {
+
+                // The neutral button was clicked
+                Toast.makeText(getApplicationContext(), "Debes superar Vectores aleatorios", Toast.LENGTH_LONG).show();
+            }
+        });
+
+         // show the alert box
+        alertbox.show();
     }
+    
+    
+    @Override
+	public boolean onKeyDown(int keycode, KeyEvent event ) {
+	 if(keycode == KeyEvent.KEYCODE_MENU){
+		 String cadena = null;
+		 cadena = ("Los diferentes bloques serán habilitados"+"\n"
+				 +"por el profesor."+"\n"
+				 +"\n"
+				 +"Una vez habilitados, para poder desbloquear"+"\n"
+				 +"los diferentes bloques existentes se deberá"+"\n"
+				 +"sacar en cada bloque un puntuación mínima de 100 puntos");
+		 new AlertDialog.Builder(this).setTitle("Cómo desbloquear el temario").setMessage(cadena).setNeutralButton("Cerrar", null).show();
+	 }
+	 return super.onKeyDown(keycode,event);  
+	}
+    
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/restwall"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido al curso de estadística.Este curso está en fase beta y son los alumnos los que deberan mejorarlo. La novededad de este curso es que sólo por matricularte tienes un 10. Para mantener ese 10 hasta final del curso deberas superar los retos que se irán desbloqueando según avance el curso. Pulsando el botón de Menú, en algunos apartados podrás obtener algo de ayuda acerca del funcionamiento de la asignatura.Reta a tus compañeros y GANA TU 10!!!" 
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+</LinearLayout>

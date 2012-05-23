@@ -31,6 +31,21 @@
 	<string name="actualizar_nota">Actualizar puntuaciones</string>
 	
 	
+	<string name="Pregunta">¿Cuál de las siguientes listas de números contiene más números impares?</string>
+	<string name="Resp1">1, 3, 5</string>
+	<string name="Resp2">2, 4, 6</string>
+	<string name="Resp3">1, 3, 6</string>
+	<string name="Resp4">1, 2, 4</string>
+	<string name="Boton_comprobar">Comprobar</string>
+	<string name="Boton_mostrar">Mostrar Clasifiación</string>
+	<string name="leaderboard_id">Leaderboard ID:</string>
+	<string name="view_leaderboard">View Leaderboard</string>
+	<string name="score_to_post">Score to Post</string>
+    <string name="post_score">Post Score</string>
+    <string name="score_display_text">Display Text</string>
+    <string name="score_blob">Blob:</string>
+	
+	
 	
     
 

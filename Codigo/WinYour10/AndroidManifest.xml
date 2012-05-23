@@ -46,6 +46,9 @@
         <activity android:name=".NotaActual" android:label="Nota actual" />
         <activity android:name=".Clasificacion" android:label="Clasificación"></activity>
         <activity android:name=".Logros" android:label="Logros" />
+        <activity android:name=".Testfinal" android:label="Test Final" />
+        <activity android:name=".Resultado_RFS_FPDActivity" android:label="Resultado" />
+        
         
         <activity android:name="com.openfeint.internal.ui.IntroFlow"
                   android:label="IntroFlow"

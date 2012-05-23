@@ -152,11 +152,12 @@ public final class R {
         public static final int yellowmedalla=0x7f020087;
     }
     public static final class id {
-        public static final int ImageView01=0x7f08003e;
-        public static final int TextView01=0x7f08003d;
+        public static final int ImageView01=0x7f080046;
+        public static final int TextView01=0x7f080045;
         public static final int acceder=0x7f080034;
         public static final int actualizar_nota=0x7f08001a;
         public static final int apuntes=0x7f080035;
+        public static final int boton_comprobar=0x7f080044;
         public static final int button=0x7f080015;
         public static final int button3=0x7f080032;
         public static final int button4=0x7f080033;
@@ -166,14 +167,14 @@ public final class R {
         public static final int ejercicios_leton=0x7f080036;
         public static final int enviar=0x7f08000f;
         public static final int espiritu_creativo=0x7f08000c;
-        public static final int exit_feint=0x7f080041;
+        public static final int exit_feint=0x7f080049;
         public static final int field=0x7f080013;
         public static final int foro=0x7f080031;
         public static final int fotovideo=0x7f08003a;
         public static final int frameLayout=0x7f080029;
         public static final int funcion_densidad=0x7f080039;
         public static final int gamefeed_root_layout=0x7f080017;
-        public static final int home=0x7f08003f;
+        public static final int home=0x7f080047;
         public static final int image=0x7f080014;
         public static final int imageView1=0x7f080019;
         public static final int logroama=0x7f080020;
@@ -202,10 +203,17 @@ public final class R {
         public static final int of_text=0x7f08002d;
         public static final int of_text1=0x7f08002e;
         public static final int of_text2=0x7f08002f;
+        public static final int pregunta=0x7f08003e;
         public static final int probabilidad=0x7f080003;
         public static final int procesos_estocasticos=0x7f080000;
         public static final int progress=0x7f08001b;
-        public static final int settings=0x7f080040;
+        public static final int radioGroup1=0x7f08003f;
+        public static final int rb1=0x7f080040;
+        public static final int rb2=0x7f080041;
+        public static final int rb3=0x7f080042;
+        public static final int rb4=0x7f080043;
+        public static final int resultado=0x7f08003d;
+        public static final int settings=0x7f080048;
         public static final int teorema_bayes=0x7f080038;
         public static final int testfinal=0x7f08003b;
         public static final int testopcional=0x7f08003c;
@@ -223,33 +231,41 @@ public final class R {
         public static final int acceso_curso=0x7f030000;
         public static final int actualizar_nota=0x7f030001;
         public static final int ajustes=0x7f030002;
-        public static final int ayuda=0x7f030003;
-        public static final int camera=0x7f030004;
-        public static final int clasificacion=0x7f030005;
-        public static final int conectar=0x7f030006;
-        public static final int en_construccion=0x7f030007;
-        public static final int estado=0x7f030008;
-        public static final int loadold=0x7f030009;
-        public static final int logros=0x7f03000a;
-        public static final int main=0x7f03000b;
-        public static final int nota_actual=0x7f03000c;
-        public static final int of_achievement_notification=0x7f03000d;
-        public static final int of_native_loader=0x7f03000e;
-        public static final int of_nested_window=0x7f03000f;
-        public static final int of_simple_notification=0x7f030010;
-        public static final int of_two_line_notification=0x7f030011;
-        public static final int probabilidad=0x7f030012;
-        public static final int probabilidad_foro=0x7f030013;
-        public static final int probabilidad_material=0x7f030014;
-        public static final int probabilidad_multimedia=0x7f030015;
-        public static final int probabilidad_test=0x7f030016;
+        public static final int camera=0x7f030003;
+        public static final int clasificacion=0x7f030004;
+        public static final int conectar=0x7f030005;
+        public static final int en_construccion=0x7f030006;
+        public static final int estado=0x7f030007;
+        public static final int loadold=0x7f030008;
+        public static final int logros=0x7f030009;
+        public static final int main=0x7f03000a;
+        public static final int nota_actual=0x7f03000b;
+        public static final int of_achievement_notification=0x7f03000c;
+        public static final int of_native_loader=0x7f03000d;
+        public static final int of_nested_window=0x7f03000e;
+        public static final int of_simple_notification=0x7f03000f;
+        public static final int of_two_line_notification=0x7f030010;
+        public static final int probabilidad=0x7f030011;
+        public static final int probabilidad_foro=0x7f030012;
+        public static final int probabilidad_material=0x7f030013;
+        public static final int probabilidad_multimedia=0x7f030014;
+        public static final int probabilidad_test=0x7f030015;
+        public static final int resultado=0x7f030016;
         public static final int simple_list=0x7f030017;
-        public static final int user_explorer=0x7f030018;
+        public static final int testfinal=0x7f030018;
+        public static final int user_explorer=0x7f030019;
     }
     public static final class menu {
         public static final int of_dashboard=0x7f070000;
     }
     public static final class string {
+        public static final int Boton_comprobar=0x7f05004d;
+        public static final int Boton_mostrar=0x7f05004e;
+        public static final int Pregunta=0x7f050048;
+        public static final int Resp1=0x7f050049;
+        public static final int Resp2=0x7f05004a;
+        public static final int Resp3=0x7f05004b;
+        public static final int Resp4=0x7f05004c;
         public static final int acceder_apuntes=0x7f050033;
         public static final int acceder_ejercicios_durban=0x7f050035;
         public static final int acceder_ejercicios_leton=0x7f050034;
@@ -260,6 +276,7 @@ public final class R {
         public static final int espiritu_creativo=0x7f050044;
         public static final int funcion_densidad=0x7f050037;
         public static final int hello=0x7f05002c;
+        public static final int leaderboard_id=0x7f05004f;
         public static final int logroama=0x7f05003a;
         public static final int logroazul=0x7f050038;
         public static final int logrogris=0x7f05003b;
@@ -315,6 +332,10 @@ public final class R {
         public static final int of_unknown_server_error=0x7f050005;
         public static final int of_yes=0x7f050012;
         public static final int ofdash=0x7f05002f;
+        public static final int post_score=0x7f050052;
+        public static final int score_blob=0x7f050054;
+        public static final int score_display_text=0x7f050053;
+        public static final int score_to_post=0x7f050051;
         public static final int spinner_layout_type_prompt=0x7f050030;
         public static final int subir_fotovideo=0x7f05003d;
         public static final int teorema_bayes=0x7f050036;
@@ -322,6 +343,7 @@ public final class R {
         public static final int testopcional=0x7f05003f;
         public static final int toggle_Gamefeed=0x7f05002e;
         public static final int tomarfoto=0x7f050040;
+        public static final int view_leaderboard=0x7f050050;
     }
     public static final class style {
         public static final int OFLoading=0x7f060000;

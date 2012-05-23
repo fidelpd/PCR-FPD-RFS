@@ -1,6 +1,8 @@
 package com.uc3m.wyt;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
@@ -65,7 +67,32 @@ public class WinYour10Activity extends Activity {
     	startActivity(new Intent(this, Ajustes.class ));
     }
     public void ClickAyuda(View v) {
-    	startActivity(new Intent(this, Ayuda.class ));
+
+    	
+        AlertDialog.Builder alertbox = new AlertDialog.Builder(this);
+
+        // Set the message to display
+        alertbox.setMessage("Bienvenido al curso de estadística."+"\n"
+        		+"\n"
+        		+"Este curso está en fase beta y son los alumnos los que deberan mejorarlo."+"\n"
+        		+"\n"
+        		+"La novededad de este curso es que sólo por matricularte tienes un 10."+"\n" 
+        		+"\n"
+        		+"Para mantener ese 10 hasta final del curso deberas superar los retos que se irán desbloqueando según avance el curso.");
+
+        // Add a neutral button to the alert box and assign a click listener
+        alertbox.setNeutralButton("Volver", new DialogInterface.OnClickListener() {
+
+            // Click listener on the neutral button of alert box
+            public void onClick(DialogInterface arg0, int arg1) {
+
+                // The neutral button was clicked
+                Toast.makeText(getApplicationContext(), "Reta a tus compañeros y GANA TU 10!!!", Toast.LENGTH_LONG).show();
+            }
+        });
+
+         // show the alert box
+        alertbox.show();
     }
     
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
