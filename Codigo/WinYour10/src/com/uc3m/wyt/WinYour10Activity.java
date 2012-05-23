@@ -2,6 +2,7 @@ package com.uc3m.wyt;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -32,8 +33,9 @@ public class WinYour10Activity extends Activity {
     	
     	super.onCreate(savedInstanceState);
     	setContentView(R.layout.main);
+    	this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 		
-	OpenFeintSettings settings = new OpenFeintSettings(gameName, gameKey, gameSecret, gameID);
+    	OpenFeintSettings settings = new OpenFeintSettings(gameName, gameKey, gameSecret, gameID);
         OpenFeint.initialize(this, settings, new OpenFeintDelegate() { });
         
 		

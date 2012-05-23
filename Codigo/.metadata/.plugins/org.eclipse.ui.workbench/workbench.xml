@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="24" version="2.0">
+<workbench progressCount="19" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="0" y="28">
 <fastViewData fastViewLocation="1024"/>
@@ -17,7 +17,7 @@
 <coolItem id="com.android.ide.eclipse.editors.layout.LayoutEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="75" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="75" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="108" y="22"/>
@@ -37,30 +37,22 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="conectar.xml" partName="conectar.xml" path="C:/Documents and Settings/rfs/Mis documentos/Documentos/RepoPCR/Codigo/WinYour10/res/layout/conectar.xml" title="conectar.xml" tooltip="WinYour10/res/layout/conectar.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WinYour10/res/layout/conectar.xml"/>
+<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="ayuda.xml" partName="ayuda.xml" path="C:/Documents and Settings/rfs/Mis documentos/Documentos/RepoPCR/Codigo/WinYour10/res/layout/ayuda.xml" title="ayuda.xml" tooltip="WinYour10/res/layout/ayuda.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WinYour10/res/layout/ayuda.xml"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="C:/Documents and Settings/rfs/Mis documentos/Documentos/RepoPCR/Codigo/WinYour10/res/values/strings.xml" title="strings.xml" tooltip="WinYour10/res/values/strings.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WinYour10/res/values/strings.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="acceso_curso.xml" partName="acceso_curso.xml" path="C:/Documents and Settings/rfs/Mis documentos/Documentos/RepoPCR/Codigo/WinYour10/res/layout/acceso_curso.xml" title="acceso_curso.xml" tooltip="WinYour10/res/layout/acceso_curso.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WinYour10/res/layout/acceso_curso.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" partName="main.xml" path="C:/Documents and Settings/rfs/Mis documentos/Documentos/RepoPCR/Codigo/WinYour10/res/layout/main.xml" title="main.xml" tooltip="WinYour10/res/layout/main.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WinYour10/res/layout/main.xml"/>
-</editor>
-<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="C:/Documents and Settings/rfs/Mis documentos/Documentos/RepoPCR/Codigo/WinYour10/res/values/strings.xml" title="strings.xml" tooltip="WinYour10/res/values/strings.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WinYour10/res/values/strings.xml"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ayuda.java" partName="Ayuda.java" path="C:/Documents and Settings/rfs/Mis documentos/Documentos/RepoPCR/Codigo/WinYour10/src/com/uc3m/wyt/Ayuda.java" title="Ayuda.java" tooltip="WinYour10/src/com/uc3m/wyt/Ayuda.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/WinYour10/src/com/uc3m/wyt/Ayuda.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="126" selectionOffset="518" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
+<view id="org.eclipse.ui.views.ProgressView" partName="Progress">
+<viewState/>
+</view>
 <view id="org.eclipse.jdt.ui.TypesView" partName="Types">
 <viewState org.eclipse.jdt.ui.browsing.typestoeditor="1" workingSetName="Aggregate for window 1334769818680">
 <customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.TypesView.ClassFilter" isEnabled="false"/>
@@ -115,9 +107,9 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (2 items)"/>
+<category IMemento.internal.id="Warnings (44 items)"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="75" org.eclipse.ui.ide.markerType="75" org.eclipse.ui.ide.pathField="100" org.eclipse.ui.ide.resourceField="75" org.eclipse.ui.ide.severityAndDescriptionField="250"/>
+<columnWidths org.eclipse.ui.ide.locationField="75" org.eclipse.ui.ide.markerType="75" org.eclipse.ui.ide.pathField="100" org.eclipse.ui.ide.resourceField="171" org.eclipse.ui.ide.severityAndDescriptionField="353"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -157,7 +149,9 @@
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
-<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
+<viewState/>
+</view>
 <view id="org.eclipse.jdt.ui.PackagesView" partName="Packages">
 <viewState org.eclipse.jdt.ui.PackagesView.viewState="0" org.eclipse.jdt.ui.browsing.packagestoeditor="1" workingSetName="Aggregate for window 1334769818680">
 <customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.internal.ui.PackagesView.EmptyPackageFilter" isEnabled="false"/>
@@ -169,7 +163,7 @@
 </view>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="com.android.ide.eclipse.ddms.views.LogCatView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -235,6 +229,7 @@
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.ui.views.ProgressView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
@@ -258,8 +253,8 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="318" ratioRight="954" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.7496382" ratioLeft="518" ratioRight="173" relationship="4" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.24192278" ratioLeft="307" ratioRight="962" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.65988374" ratioLeft="454" ratioRight="234" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -267,9 +262,9 @@
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.ui.views.ProgressView" label="Progress"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
@@ -277,6 +272,7 @@
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
+<part id="6"/>
 </presentation>
 </folder>
 </info>
@@ -504,128 +500,134 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/WinYour10/res/layout/ajustes.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/WinYour10/res/drawable/conectar.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/WinYour10/res/layout/ayuda.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/WinYour10/res/drawable/conectarC.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/WinYour10/res/drawable/desconectarD.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/WinYour10/res/drawable/salirS.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WinYour10/src/com/uc3m/wyt/Conectar.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WinYour10/src/com/uc3m/wyt/Ayuda.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WinYour10/src/com/uc3m/wyt/Logros.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WinYour10/src/com/uc3m/wyt/AboutUs.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WinYour10/src/com/uc3m/wyt/Ajustes.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/WinYour10/res/drawable/conectarc.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/WinYour10/res/drawable/desconectard.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/WinYour10/res/drawable/salirs.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WinYour10/src/com/uc3m/wyt/WinYour10Activity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WinYour10/src/com/uc3m/wyt/Loading.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WinYour10/src/com/uc3m/wyt/Probabilidad.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WinYour10/src/com/uc3m/wyt/ProbabilidadForo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WinYour10/src/com/uc3m/wyt/ProbabilidadMaterial.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WinYour10/src/com/uc3m/wyt/ProbabilidadMultimedia.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/WinYour10/res/layout/clasificacion.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/WinYour10/res/layout/conectar.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/WinYour10/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/WinYour10/res/layout/acceso_curso.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/WinYour10/res/layout/ayuda.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/WinYour10/res/layout/main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/WinYour10/res/layout/main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/WinYour10/res/layout/ayuda.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/WinYour10/src/com/uc3m/wyt/Ayuda.java"/>
 </editors>
-<item historyLabel="ajustes.xml" index="0"/>
-<item historyLabel="conectarC.xml" index="3">
-<position info="not_deleted" x="0" y="402"/>
+<item historyLabel="Ayuda.java" index="0">
+<position info="not_deleted" x="311" y="0"/>
 </item>
-<item historyLabel="desconectarD.xml" index="4">
-<position info="not_deleted" x="377" y="0"/>
+<item historyLabel="Logros.java" index="1">
+<position info="not_deleted" x="3279" y="0"/>
 </item>
-<item historyLabel="salirS.xml" index="5">
-<position info="not_deleted" x="355" y="0"/>
+<item historyLabel="Ayuda.java" index="0">
+<position info="not_deleted" x="311" y="0"/>
 </item>
-<item historyLabel="Conectar.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Probabilidad.java" index="4">
+<position info="not_deleted" x="2893" y="0"/>
 </item>
-<item historyLabel="Ajustes.java" index="7">
-<position info="not_deleted" x="1908" y="1093"/>
+<item historyLabel="Ayuda.java" index="0">
+<position info="not_deleted" x="683" y="0"/>
 </item>
-<item historyLabel="ayuda.xml" index="2"/>
-<item historyLabel="ajustes.xml" index="0"/>
-<item historyLabel="Ajustes.java" index="7">
-<position info="not_deleted" x="1630" y="13"/>
+<item historyLabel="Probabilidad.java" index="4">
+<position info="not_deleted" x="2778" y="0"/>
 </item>
-<item historyLabel="ayuda.xml" index="2"/>
-<item historyLabel="ajustes.xml" index="0"/>
-<item historyLabel="Ajustes.java" index="7">
-<position info="not_deleted" x="1727" y="16"/>
+<item historyLabel="AboutUs.java" index="2">
+<position info="not_deleted" x="313" y="84"/>
 </item>
-<item historyLabel="ajustes.xml" index="0"/>
-<item historyLabel="Ajustes.java" index="7">
-<position info="not_deleted" x="1920" y="10"/>
+<item historyLabel="ayuda.xml" index="5"/>
+<item historyLabel="Ayuda.java" index="0">
+<position info="not_deleted" x="683" y="0"/>
 </item>
-<item historyLabel="ajustes.xml" index="0"/>
-<item historyLabel="Ajustes.java" index="7">
-<position info="not_deleted" x="1920" y="10"/>
+<item historyLabel="AboutUs.java" index="2">
+<position info="not_deleted" x="313" y="84"/>
 </item>
-<item historyLabel="ayuda.xml" index="2"/>
-<item historyLabel="conectarc.xml" index="8">
-<position info="not_deleted" x="0" y="402"/>
+<item historyLabel="Ayuda.java" index="0">
+<position info="not_deleted" x="683" y="0"/>
 </item>
-<item historyLabel="desconectard.xml" index="9">
-<position info="not_deleted" x="377" y="0"/>
+<item historyLabel="AboutUs.java" index="2">
+<position info="not_deleted" x="313" y="84"/>
 </item>
-<item historyLabel="salirs.xml" index="10">
-<position info="not_deleted" x="355" y="0"/>
+<item historyLabel="Ayuda.java" index="0">
+<position info="not_deleted" x="683" y="0"/>
 </item>
-<item historyLabel="ajustes.xml" index="0"/>
-<item historyLabel="Ajustes.java" index="7">
-<position info="not_deleted" x="1920" y="10"/>
+<item historyLabel="AboutUs.java" index="2">
+<position info="not_deleted" x="313" y="84"/>
 </item>
-<item historyLabel="Ajustes.java" index="7">
-<position/>
+<item historyLabel="Ayuda.java" index="0">
+<position info="not_deleted" x="683" y="0"/>
 </item>
-<item historyLabel="WinYour10Activity.java" index="11">
-<position info="not_deleted" x="1045" y="0"/>
+<item historyLabel="AboutUs.java" index="2">
+<position info="not_deleted" x="313" y="84"/>
 </item>
-<item historyLabel="Ajustes.java" index="7">
-<position info="not_deleted" x="2866" y="0"/>
+<item historyLabel="Ayuda.java" index="0">
+<position info="not_deleted" x="683" y="0"/>
 </item>
-<item historyLabel="Loading.java" index="12">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="AboutUs.java" index="2">
+<position info="not_deleted" x="313" y="84"/>
 </item>
-<item historyLabel="Probabilidad.java" index="13">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Ayuda.java" index="0">
+<position info="not_deleted" x="669" y="0"/>
 </item>
-<item historyLabel="ProbabilidadForo.java" index="14">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ayuda.xml" index="5"/>
+<item historyLabel="Ayuda.java" index="0">
+<position info="not_deleted" x="667" y="0"/>
 </item>
-<item historyLabel="ProbabilidadMaterial.java" index="15">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ayuda.xml" index="5"/>
+<item historyLabel="Logros.java" index="1">
+<position info="not_deleted" x="3279" y="0"/>
 </item>
-<item historyLabel="ProbabilidadMultimedia.java" index="16">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Ayuda.java" index="0">
+<position info="not_deleted" x="667" y="0"/>
 </item>
-<item historyLabel="conectar.xml" index="1"/>
-<item historyLabel="clasificacion.xml" index="17"/>
-<item historyLabel="conectar.xml" index="1"/>
-<item historyLabel="clasificacion.xml" index="17"/>
-<item historyLabel="conectar.xml" index="18"/>
-<item historyLabel="strings.xml" index="19"/>
-<item historyLabel="conectar.xml" index="18"/>
-<item historyLabel="strings.xml" index="19"/>
-<item historyLabel="conectar.xml" index="18"/>
-<item historyLabel="acceso_curso.xml" index="20"/>
-<item historyLabel="conectar.xml" index="18"/>
-<item historyLabel="strings.xml" index="19"/>
-<item historyLabel="conectar.xml" index="18"/>
-<item historyLabel="main.xml" index="21">
-<position info="not_deleted" x="300" y="260"/>
+<item historyLabel="ayuda.xml" index="5"/>
+<item historyLabel="Ayuda.java" index="0">
+<position info="not_deleted" x="667" y="0"/>
 </item>
-<item historyLabel="main.xml" index="22">
-<position/>
+<item historyLabel="Logros.java" index="1">
+<position info="not_deleted" x="3279" y="0"/>
 </item>
-<item historyLabel="main.xml" index="22">
-<position info="not_deleted" x="594" y="27"/>
+<item historyLabel="ayuda.xml" index="5"/>
+<item historyLabel="AboutUs.java" index="2">
+<position info="not_deleted" x="313" y="84"/>
 </item>
-<item historyLabel="acceso_curso.xml" index="20"/>
-<item historyLabel="main.xml" index="21"/>
-<item historyLabel="acceso_curso.xml" index="20"/>
-<item active="true" historyLabel="strings.xml" index="19"/>
+<item historyLabel="ayuda.xml" index="5"/>
+<item historyLabel="Ayuda.java" index="0">
+<position info="not_deleted" x="643" y="0"/>
+</item>
+<item historyLabel="ayuda.xml" index="5">
+<position info="not_deleted" x="285" y="0"/>
+</item>
+<item historyLabel="Ayuda.java" index="0">
+<position info="not_deleted" x="643" y="0"/>
+</item>
+<item historyLabel="ayuda.xml" index="5"/>
+<item historyLabel="Logros.java" index="1">
+<position info="not_deleted" x="3279" y="0"/>
+</item>
+<item historyLabel="ayuda.xml" index="5"/>
+<item historyLabel="Ajustes.java" index="3">
+<position info="not_deleted" x="656" y="0"/>
+</item>
+<item historyLabel="ayuda.xml" index="5"/>
+<item historyLabel="Probabilidad.java" index="4">
+<position info="not_deleted" x="2778" y="0"/>
+</item>
+<item historyLabel="ayuda.xml" index="5"/>
+<item historyLabel="main.xml" index="6"/>
+<item historyLabel="ayuda.xml" index="7"/>
+<item historyLabel="Ayuda.java" index="8">
+<position info="not_deleted" x="673" y="0"/>
+</item>
+<item historyLabel="ayuda.xml" index="7"/>
+<item historyLabel="Ayuda.java" index="8">
+<position info="not_deleted" x="673" y="0"/>
+</item>
+<item historyLabel="ayuda.xml" index="7"/>
+<item historyLabel="Ayuda.java" index="8">
+<position info="not_deleted" x="673" y="0"/>
+</item>
+<item historyLabel="ayuda.xml" index="7"/>
+<item historyLabel="Ayuda.java" index="8">
+<position info="not_deleted" x="518" y="126"/>
+</item>
+<item active="true" historyLabel="ayuda.xml" index="7"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -643,35 +645,47 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="WinYour10/res/values/strings.xml">
-<persistable path="/WinYour10/res/values/strings.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ayuda.java" tooltip="WinYour10/src/com/uc3m/wyt/Ayuda.java">
+<persistable path="/WinYour10/src/com/uc3m/wyt/Ayuda.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="wall.png" tooltip="WinYour10/res/drawable/wall.png">
-<persistable path="/WinYour10/res/drawable/wall.png"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="ayuda.xml" tooltip="WinYour10/res/layout/ayuda.xml">
+<persistable path="/WinYour10/res/layout/ayuda.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="salir.png" tooltip="WinYour10/res/drawable/salir.png">
-<persistable path="/WinYour10/res/drawable/salir.png"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="logros.xml" tooltip="WinYour10/res/layout/logros.xml">
+<persistable path="/WinYour10/res/layout/logros.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="key.png" tooltip="WinYour10/res/drawable/key.png">
-<persistable path="/WinYour10/res/drawable/key.png"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" tooltip="WinYour10/gen/com/uc3m/wyt/R.java">
+<persistable path="/WinYour10/gen/com/uc3m/wyt/R.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="icono.png" tooltip="WinYour10/res/drawable/icono.png">
-<persistable path="/WinYour10/res/drawable/icono.png"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VectoresAleatorios.java" tooltip="WinYour10/src/com/uc3m/wyt/VectoresAleatorios.java">
+<persistable path="/WinYour10/src/com/uc3m/wyt/VectoresAleatorios.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="help.png" tooltip="WinYour10/res/drawable/help.png">
-<persistable path="/WinYour10/res/drawable/help.png"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VariablesAleatorias.java" tooltip="WinYour10/src/com/uc3m/wyt/VariablesAleatorias.java">
+<persistable path="/WinYour10/src/com/uc3m/wyt/VariablesAleatorias.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="greenpodio.png" tooltip="WinYour10/res/drawable/greenpodio.png">
-<persistable path="/WinYour10/res/drawable/greenpodio.png"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserExplorer.java" tooltip="WinYour10/src/com/uc3m/wyt/UserExplorer.java">
+<persistable path="/WinYour10/src/com/uc3m/wyt/UserExplorer.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="forobutton.png" tooltip="WinYour10/res/drawable/forobutton.png">
-<persistable path="/WinYour10/res/drawable/forobutton.png"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProcesosEstocasticos.java" tooltip="WinYour10/src/com/uc3m/wyt/ProcesosEstocasticos.java">
+<persistable path="/WinYour10/src/com/uc3m/wyt/ProcesosEstocasticos.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="estado.png" tooltip="WinYour10/res/drawable/estado.png">
-<persistable path="/WinYour10/res/drawable/estado.png"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NotaActual.java" tooltip="WinYour10/src/com/uc3m/wyt/NotaActual.java">
+<persistable path="/WinYour10/src/com/uc3m/wyt/NotaActual.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="configuracion.png" tooltip="WinYour10/res/drawable/configuracion.png">
-<persistable path="/WinYour10/res/drawable/configuracion.png"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Logros.java" tooltip="WinYour10/src/com/uc3m/wyt/Logros.java">
+<persistable path="/WinYour10/src/com/uc3m/wyt/Logros.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Estado.java" tooltip="WinYour10/src/com/uc3m/wyt/Estado.java">
+<persistable path="/WinYour10/src/com/uc3m/wyt/Estado.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Conectar.java" tooltip="WinYour10/src/com/uc3m/wyt/Conectar.java">
+<persistable path="/WinYour10/src/com/uc3m/wyt/Conectar.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Clasificacion.java" tooltip="WinYour10/src/com/uc3m/wyt/Clasificacion.java">
+<persistable path="/WinYour10/src/com/uc3m/wyt/Clasificacion.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CameraP.java" tooltip="WinYour10/src/com/uc3m/wyt/CameraP.java">
+<persistable path="/WinYour10/src/com/uc3m/wyt/CameraP.java"/>
 </file>
 </mruList>
 </workbench>

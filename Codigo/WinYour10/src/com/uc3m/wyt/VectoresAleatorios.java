@@ -1,6 +1,7 @@
 package com.uc3m.wyt;
 
 import android.app.Activity;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 
 public class VectoresAleatorios extends Activity {
@@ -10,6 +11,7 @@ public class VectoresAleatorios extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.en_construccion);
+		this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 	}
 
     @Override

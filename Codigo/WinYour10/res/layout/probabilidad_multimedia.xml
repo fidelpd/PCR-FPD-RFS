@@ -8,18 +8,34 @@
  	android:padding="10dp"
  	android:textSize="16sp">
 
+	
     <Button
         android:id="@+id/teorema_bayes"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/teorema_bayes"
-        android:onClick="teorema_bayes"  />
+        android:layout_width="256dp"
+        android:layout_height="100dp"
+		android:layout_gravity="center_horizontal"
+        android:background="@drawable/teoremabutton"
+        android:onClick="teorema_bayes" 
+		android:layout_marginBottom="20dp" android:layout_marginTop="40dp"/>
 
     <Button
         android:id="@+id/funcion_densidad"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/funcion_densidad"
-        android:onClick="funcion_densidad"  />
+        android:layout_width="256dp"
+        android:layout_height="100dp"
+		android:layout_gravity="center_horizontal"
+        android:background="@drawable/funcionbutton"
+        android:onClick="funcion_densidad"  
+		android:layout_marginBottom="20dp" android:layout_marginTop="20dp"/>
+		
+	
+
+		<Button
+        android:id="@+id/fotovideo"
+        android:layout_width="256dp"
+        android:layout_height="100dp"
+		android:layout_gravity="center_horizontal"
+        android:background="@drawable/fotovideobutton"
+		android:onClick="fotovideo"  
+		android:layout_marginBottom="10dp" android:layout_marginTop="20dp"/>
 
 </LinearLayout>

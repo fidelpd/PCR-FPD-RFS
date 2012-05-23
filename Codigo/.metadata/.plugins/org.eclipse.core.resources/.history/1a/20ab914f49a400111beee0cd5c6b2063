@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, WinYour10Activity!</string>
+    <string name="app_name">Win Your 10!</string>
+    <string name="toggle_Gamefeed">Esconder Gamefeed</string>
+    <string name="ofdash">Launch Dashboard</string>
+	<string name="spinner_layout_type_prompt">Layout Type:</string>
+	<string name="of_loading">Loading...</string>
+    <string name="acceder_foro">Acceder al Foro</string>
+	<string name="acceder_apuntes">Apuntes</string>
+	<string name="acceder_ejercicios_leton">Ejercicios Letón</string>
+	<string name="acceder_ejercicios_durban">Ejercicios Durbán</string>
+	<string name="teorema_bayes">Teorema de Bayes</string>
+	<string name="funcion_densidad">Función densidad</string>
+	<string name="logroazul">Mejor compañero</string>
+	<string name="logrorojo">Más trabajador</string>
+	<string name="logroama">Más constante</string>
+	<string name="logrogris">Más sabio</string>
+	<string name="logroverde">Más creativo</string>
+	<string name="subir_fotovideo">Subir foto/vídeo</string>
+	
+	
+	
+    
+
+</resources>
